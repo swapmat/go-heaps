@@ -1,0 +1,22 @@
+goos: darwin
+goarch: amd64
+pkg: github.com/theodesp/go-heaps/benchmark
+BenchmarkBinomialHeapInsert-8            7640144               183 ns/op              64 B/op          2 allocs/op
+BenchmarkBinomialHeapFind-8             28629026                42.0 ns/op             0 B/op          0 allocs/op
+BenchmarkBinomialHeapDelete-8             446864              2576 ns/op               0 B/op          0 allocs/op
+BenchmarkFibonacciHeapInsert-8           9578619               197 ns/op              80 B/op          2 allocs/op
+BenchmarkFibonacciHeapFind-8            1000000000               0.294 ns/op           0 B/op          0 allocs/op
+BenchmarkFibonacciHeapDelete-8                 1        1179929591 ns/op            1152 B/op          4 allocs/op
+BenchmarkLeftistHeapInsert-8             4753714               306 ns/op              64 B/op          2 allocs/op
+BenchmarkLeftistHeapFind-8              1000000000               0.295 ns/op           0 B/op          0 allocs/op
+BenchmarkLeftistHeapDelete-8              457318              3019 ns/op               0 B/op          0 allocs/op
+BenchmarkRPHeapInsert-8                 10844942               153 ns/op              64 B/op          2 allocs/op
+BenchmarkRPHeapFind-8                   1000000000               0.722 ns/op           0 B/op          0 allocs/op
+BenchmarkRPHeapDelete-8                   334695              4179 ns/op             256 B/op          2 allocs/op
+BenchmarkPairHeapInsert-8                  64243            211394 ns/op          169838 B/op          3 allocs/op
+BenchmarkPairHeapFind-8                 1000000000               0.802 ns/op           0 B/op          0 allocs/op
+BenchmarkPairHeapDelete-8                      1        5431200410 ns/op        9656531936 B/op   102001 allocs/op
+BenchmarkSimpleHeapInsert-8             12959079               119 ns/op              56 B/op          1 allocs/op
+BenchmarkSimpleHeapFind-8               1000000000               0.628 ns/op           0 B/op          0 allocs/op
+BenchmarkSimpleHeapDelete-8               461935              3366 ns/op               0 B/op          0 allocs/op
+PASS
